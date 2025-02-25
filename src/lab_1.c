@@ -28,7 +28,6 @@ int main() {
     printf("Введите строку: ");
     fgets(str, sizeof(str), stdin);
     str[strcspn(str, "\n")] = 0; 
-
     getFourthWord(str);
 
     return 0;
