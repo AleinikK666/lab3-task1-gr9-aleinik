@@ -1,12 +1,12 @@
 language = "c"
-run = "gcc -o lab_1.c /home/runner/lab3-task1-gr9-aleinik/src/lab_1.c"
+run = "gcc -o lab_1 /home/runner/lab3-task1-gr9-aleinik/src/lab_1.c"
 modules = ["c-clang14"]
 
 [deployment]
 run = [
   "sh",
   "-c",
-  "gcc -o lab_1.c /home/runner/lab3-task1-gr9-aleinik/src/lab_1.c"]
+  "gcc -o lab_1 /home/runner/lab3-task1-gr9-aleinik/src/lab_1.c"]
 
 [nix]
 channel = "stable-24_05"
